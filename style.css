@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body {
+    background-color: #222;
+}
+
+.container {
+    width: 500px;
+    min-width: 500px;
+    height: 140px;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+
+input {
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    width: 60%;
+    background-color: rgb(225, 243, 245);
+    color: gray;
+    padding: 12px 0;
+    text-indent: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    outline: none;
+}
+
+button {
+    background: white;
+    background-color: rgb(225, 243, 245);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+button img {
+    width: 30%;
+    height: auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.weather-image {
+    text-align: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.weather-image img {
+    width: 40%;
+}
+
+.temp {
+    text-align: center;
+    color: white;
+}
+
+.temp h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.city {
+    text-align: center;
+    color: white;
+}
+
+.city h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 50px;
+}
+
+.humid, .wind {
+    display: flex; 
+}
+
+.humid-img {
+    background: url(/images/humidity.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.wind-img {
+    background: url(/images/wind.png);
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+.humid h2, .wind h2 {
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.humidity-wind {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.humidity-wind h3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    background-color: transparent;
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(180, 180, 180);
+    font-size: 13px;
+    margin-top: 5px;
+    display: none;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <input type="text" placeholder="enter city name" id="input-box">
+            <button id="button"><img src="/images/search.png"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city</p>
+        </div>
+
+        <div class="weather">
+
+            <div class="weather-image">
+                <img src="/images/clouds.png" id="weather-icon">
+            </div>
+
+            <div class="temp">
+                <h1 id="temp">22°c</h1>
+            </div>
+
+            <div class="city">
+                <h1 id="city">Vientiane</h1>
+            </div>
+
+            <div class="detail">
+                <div class="humid">
+                    <div class="humid-img"></div>
+                    <h2 id="humidity">53%</h2>
+                </div>
+                <div class="wind">
+                    <div class="wind-img"></div>
+                    <h2 id="wind-speed">5.66 Km/h</h2>
+                </div>
+            </div>
+
+            <div class="humidity-wind">
+                <h3>Humidity</h3>
+                <h3>Wind speed</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
